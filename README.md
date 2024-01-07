@@ -9,13 +9,13 @@ This project contains four different programs based on various UNIX utilities. T
 ### How to run
 
 You can run the makefile which includes:<br>
-all: mysearch mytail myls mystat	
+all: mysearch mytail myls mystat<br>	
 <br>
-mysearch: mysearch-kamryn.c
-	gcc	-o	mysearch	mysearch-kamryn.c
-mytail:	mytail-kamryn.c
-	gcc	-o	mytail	mytail-kamryn.c
-myls:	myls-kamryn.c
-	gcc	-o	myls	myls-kamryn.c
-mystat:	mystat-kamryn.c
+mysearch: mysearch-kamryn.c<br>
+	gcc	-o	mysearch	mysearch-kamryn.c<br>
+mytail:	mytail-kamryn.c<br>
+	gcc	-o	mytail	mytail-kamryn.c<br>
+myls:	myls-kamryn.c<br>
+	gcc	-o	myls	myls-kamryn.c<br>
+mystat:	mystat-kamryn.c<br>
 	gcc	-o	mystat	mystat-kamryn.c
