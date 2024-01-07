@@ -8,8 +8,9 @@ This project contains four different programs based on various UNIX utilities. T
 
 ### How to run
 
-You can run the makefile which includes:<br>
-
+Run make, to compile all the files.
+This includes:<br>
+<sup>
 all: mysearch mytail myls mystat<br>	
 <br>
 mysearch: mysearch-kamryn.c<br>
@@ -19,4 +20,4 @@ mytail:	mytail-kamryn.c<br>
 myls:	myls-kamryn.c<br>
 	gcc	-o	myls	myls-kamryn.c<br><br>
 mystat:	mystat-kamryn.c<br>
-	gcc	-o	mystat	mystat-kamryn.c
+	gcc	-o	mystat	mystat-kamryn.c</sup>
