@@ -8,8 +8,8 @@ This project contains four different programs based on various UNIX utilities. T
 
 ### How to run
 
-Run make, to compile all the files.
-This includes:<br>
+Run make, to compile all the files. This includes:
+
 <sup>
 all: mysearch mytail myls mystat<br>	
 <br>
