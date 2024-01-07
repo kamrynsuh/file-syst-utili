@@ -12,10 +12,10 @@ You can run the makefile which includes:<br>
 all: mysearch mytail myls mystat<br>	
 <br>
 mysearch: mysearch-kamryn.c<br>
-	gcc	-o	mysearch	mysearch-kamryn.c<br>
+	gcc	-o	mysearch	mysearch-kamryn.c<br><br>
 mytail:	mytail-kamryn.c<br>
-	gcc	-o	mytail	mytail-kamryn.c<br>
+	gcc	-o	mytail	mytail-kamryn.c<br><br>
 myls:	myls-kamryn.c<br>
-	gcc	-o	myls	myls-kamryn.c<br>
+	gcc	-o	myls	myls-kamryn.c<br><br>
 mystat:	mystat-kamryn.c<br>
 	gcc	-o	mystat	mystat-kamryn.c
