@@ -9,6 +9,7 @@ This project contains four different programs based on various UNIX utilities. T
 ### How to run
 
 You can run the makefile which includes:<br>
+
 all: mysearch mytail myls mystat<br>	
 <br>
 mysearch: mysearch-kamryn.c<br>
